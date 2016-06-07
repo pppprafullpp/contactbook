@@ -21,9 +21,9 @@
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
 
-role :app, %w{ubuntu@52.41.6.119}
-role :web, %w{ubuntu@52.41.6.119}
-role :db,  %w{ubuntu@52.41.6.119} 
+role :app, %w{ubuntu@ec2-52-41-6-119.us-west-2.compute.amazonaws.com}
+role :web, %w{ubuntu@ec2-52-41-6-119.us-west-2.compute.amazonaws.com}
+role :db,  %w{ubuntu@ec2-52-41-6-119.us-west-2.compute.amazonaws.com} 
 
 # Extended Server Syntax
 # ======================
@@ -35,7 +35,7 @@ role :db,  %w{ubuntu@52.41.6.119}
 set :stage, :production
 
 # Replace 127.0.0.1 with your server's IP address!
-server '52.41.6.119', user: 'deploy', roles: %w{web app db}
+server 'ubuntu@ec2-52-41-6-119.us-west-2.compute.amazonaws.com', user: 'deploy', roles: %w{web app db}
 
 # Configuration
 # =============

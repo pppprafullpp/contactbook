@@ -1,7 +1,7 @@
 lock '3.5.0'
 
 set :application, 'contactbook'
-set :repo_url, 'https://pppprafullpp:anushka02@github.com/pppprafullpp/contactbook.git'
+set :repo_url, 'https://github.com/pppprafullpp/contactbook.git'
 set :branch, :master
 set :deploy_to, '/home/deploy/contactbook'
 set :pty, true
