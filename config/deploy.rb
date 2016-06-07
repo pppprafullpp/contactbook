@@ -1,4 +1,4 @@
-lock '3.4.0'
+lock '3.5.0'
 
 set :application, 'contactbook'
 set :repo_url, 'https://pppprafullpp:anushka02@github.com/pppprafullpp/contactbook.git'
